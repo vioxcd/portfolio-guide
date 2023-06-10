@@ -10,36 +10,36 @@ Mostly data-related things
 
 ### Data Engineering
 
-| Project | Type | Completion Date | Tools | Description |
-| --- | --- | --- | --- | --- |
-| [Coursera Data Warehouse Capstone][coursera-dwh] | Data Warehouse, Business Intelligence, Case Study | Ongoing | Postgres | Working through the final part of [Coursera's Data Warehouse for Business Intelligence Specializations][coursera-dwh-bi] assignments |
-| [Fluffy Folks Dashboard][ff-dashboard] | End-to-End Pipeline, Presentation Layer | April 2023 | GraphQL API, sqlite, dbt, Streamlit, Airflow, Google Sheets | Sheets and dashboards for anime and manga-related statistics of my online circle. Initially built to address painful manual tracking and curation that a friend of mine did weekly. It has 11 kinds of statistics and automatic export to sheets. Sheets available online [here][ff-sheets] |
-| [Anime and Manga Recommendation API][animanga-recommenders] | API, Deployment | March 2023 | FastAPI, Docker | Deploying the recommendation model and association rules I've created on an API. Using best practices I've learned through various resource about how to best use [Docker for a Python deployment][docker-python] |
-| [Caltech Data Engineering Exercises][caltech-de] | Exercises, Case Study | January 2023 | Postgres, MongoDB | Working through [Caltech Data Engineering][caltech-de-page] course exercises alongside the materials given |
+| Project | Completion Date | Tools | Description |
+| --- | --- | --- | --- |
+| [Coursera Data Warehouse Capstone][coursera-dwh] | Ongoing | Postgres, dbt, Looker | Working through the final part of [Coursera's Data Warehouse for Business Intelligence Specializations][coursera-dwh-bi] assignments and case studies involving modeling (Kimball-style), integration, query problems, and dashboard building |
+| [Fluffy Folks Dashboard][ff-dashboard] | April 2023 | GraphQL API, sqlite, dbt, Streamlit, Airflow, Google Sheets | End-to-end pipeline of my online circle's anime and manga-related statistics. Initially built to address painful manual tracking and curation that a friend of mine did weekly. It includes a sheet and dashboard for user's access with 11 kinds of statistics. Sheets available online [here][ff-sheets] |
+| [Anime and Manga Recommendation API][animanga-recommenders] | March 2023 | FastAPI, Docker | Deploying the recommendation model and association rules I've created on an API. Using best practices I've learned through various resource about how to best use [Docker for a Python deployment][docker-python] |
+| [Caltech Data Engineering Exercises][caltech-de] | January 2023 | Postgres, MongoDB | Working through [Caltech Data Engineering][caltech-de-page] course exercises and case studies alongside the materials given |
 
 ### Machine Learning
 
-| Project | Type | Completion Date | Tools | Description |
-| --- | --- | --- | --- | --- |
-| [Hackernews Topic Modeling][hackernews-topic-modeling] | Topic Modeling | November 2022 | SQL, asyncio, pandas, BERTopic | Extract [Hacker News][hn-link] public dataset served in BigQuery, performs data cleaning routine, and builds a topic model from the data. Curates personal browsing history to build user profile from the topic model that can be used for content-based recommendation |
-| [MAL Favorites Association Rules][mal-fav-assoc] | Association Rules | February 2022 | pyspark | Uses Spark's [FP Growth algorithm][fp-growth] to mine user's favourites data to discover patterns and rules of favourites between each anime, manga, characters, and staff |
-| [MAL Recommendation Model][mal-recsys] | Recommendation Systems | November 2021 | pandas, matplotlib, PyTorch, Spotlight | Build a [Matrix Factorization][mf-model] model that could be used as an engine for a recommendation systems that can recommend anime and manga for users. Trained using users' ratings data from MyAnimelist |
+| Project | Completion Date | Tools | Description |
+| --- | --- | --- | --- |
+| [Hackernews Topic Modeling][hackernews-topic-modeling] | November 2022 | SQL, asyncio, pandas, BERTopic | Extract [Hacker News][hn-link] public dataset served in BigQuery, performs data cleaning routine, and builds a topic model from the data. Curates personal browsing history to build user profile from the topic model that can be used for content-based recommendation |
+| [MAL Favorites Association Rules][mal-fav-assoc] | February 2022 | pyspark | Uses Spark's [FP Growth algorithm][fp-growth] to mine user's favourites data to discover patterns and rules of favourites between each anime, manga, characters, and staff |
+| [MAL Recommendation Model][mal-recsys] | November 2021 | pandas, matplotlib, PyTorch, Spotlight | Build a [Matrix Factorization][mf-model] model that could be used as an engine for a recommendation systems that can recommend anime and manga for users. Trained using users' ratings data from MyAnimelist |
 
 ### Data Collection, Preparation and Analysis
 
-| Project | Type | Completion Date | Tools | Description |
-| --- | --- | --- | --- | --- |
-| [Stratascratch Business Analysis][stratascratch-business-analysis] | Analysis, Case Study | June 2023 | pyspark, pandas, Matplotlib, H3, folium | A case study of analyzing reasons of failures for a corporate transportation management company. Answering business questions given in the task and doing the bonus task of visualizing where most failures happen in a map |
-| [Tab Session Manager Deduplicator][tsmd] | Data Cleaning, Analysis | October 2022 | pandas | Deduplication of my [Tab Session Manager][tsm-repo] sessions, along with a little bit of fun exploration |
-| [Skripsi Kawanku][skripsi-kawanku] | Scraping, Cleaning, Modeling | 2021 ~ | requests, bs4, Scrapy, Selenium, Tweepy, pandas, NLTK, scikit-learn, matplotlib, seaborn | Helping some of my friends working through their bachelor's thesis; I did various things in many projects |
+| Project | Completion Date | Tools | Description |
+| --- | --- | --- | --- |
+| [Stratascratch Business Analysis][stratascratch-business-analysis] | June 2023 | pyspark, pandas, Matplotlib, H3, folium | A case study of analyzing reasons of failures for a corporate transportation management company. Answering business questions given in the task and doing the bonus task of visualizing where most failures happen in a map |
+| [Tab Session Manager Deduplicator][tsmd] | October 2022 | pandas | Data cleaning and record deduplication of my [Tab Session Manager][tsm-repo] sessions, along with a little bit of fun exploration |
+| [Skripsi Kawanku][skripsi-kawanku] | 2021 ~ | requests, bs4, Scrapy, Selenium, Tweepy, pandas, NLTK, scikit-learn, matplotlib, seaborn | Helping some of my friends working through their bachelor's thesis; I get involved in various things in all phases of the data science lifecycle in many projects |
 
 ### Languages
 
-| Project | Type | Completion Date | Tools | Description |
-| --- | --- | --- | --- | --- |
-| [SQL Interview Preps][sql-interviews] | Exercises | June 2023 ~ | SQL | Working through SQL exercises in various coding platforms (Hackerrank, Leetcode, Stratascratch), and other exercises I could find |
-| [Scala Forth Exercism][scala-forth] | Exercises | March 2023 | Scala | Implementing a simple subset of [Forth][forth-wiki], a stack-oriented programming language |
-| [Scala Advent of Code][scala-aoc] | Exercises | December 2022 | Scala | Working through [Advent of Code][aoc-link] 2022 problems (only made it through 14 days) |
+| Project | Completion Date | Tools | Description |
+| --- | --- | --- | --- |
+| [SQL Interview Preps][sql-interviews] | June 2023 ~ | SQL | Working through SQL exercises in various coding platforms (Hackerrank, Leetcode, Stratascratch), and other exercises I could find |
+| [Scala Forth Exercism][scala-forth] | March 2023 | Scala | Implementing a simple subset of [Forth][forth-wiki], a stack-oriented programming language |
+| [Scala Advent of Code][scala-aoc] | December 2022 | Scala | Working through [Advent of Code][aoc-link] 2022 problems (only made it through 14 days) |
 
 [//]: # "| Codility | Coding Exercises | - | - | - |"
 [//]: # "| Hackernews Topic Model Pipeline | Data Engineering | - | - | - |"
