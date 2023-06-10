@@ -23,7 +23,7 @@ Mostly data-related things
 | --- | --- | --- | --- |
 | [Hackernews Topic Modeling][hackernews-topic-modeling] | November 2022 | SQL, asyncio, pandas, BERTopic | Extract [Hacker News][hn-link] public dataset served in BigQuery, performs data cleaning routine, and builds a topic model from the data. Curates personal browsing history to build user profile from the topic model that can be used for content-based recommendation |
 | [MAL Favorites Association Rules][mal-fav-assoc] | February 2022 | pyspark | Uses Spark's [FP Growth algorithm][fp-growth] to mine user's favourites data to discover patterns and rules of favourites between each anime, manga, characters, and staff |
-| [MAL Recommendation Model][mal-recsys] | November 2021 | pandas, matplotlib, PyTorch, Spotlight | Build a [Matrix Factorization][mf-model] model that could be used as an engine for a recommendation systems that can recommend anime and manga for users. Trained using users' ratings data from MyAnimelist |
+| [MAL Recommendation Model][mal-recsys] | November 2021 | pandas, Matplotlib, PyTorch, Spotlight | Build a [Matrix Factorization][mf-model] model that could be used as an engine for a recommendation systems that can recommend anime and manga for users. Trained using users' ratings data from MyAnimelist |
 
 ### Data Collection, Preparation and Analysis
 
@@ -31,7 +31,8 @@ Mostly data-related things
 | --- | --- | --- | --- |
 | [Stratascratch Business Analysis][stratascratch-business-analysis] | June 2023 | pyspark, pandas, Matplotlib, H3, folium | A [data projects][stratascratch-data-projects-link] (case study) of analyzing reasons of failures for a corporate transportation management company. Answering business questions given in the task and doing the bonus task of visualizing where most failures happen in a map |
 | [Tab Session Manager Deduplicator][tsmd] | October 2022 | pandas | Data cleaning and record deduplication of my [Tab Session Manager][tsm-repo] sessions, along with a little bit of fun exploration |
-| [Skripsi Kawanku][skripsi-kawanku] | 2021 ~ | requests, bs4, Scrapy, Selenium, Tweepy, pandas, NLTK, scikit-learn, matplotlib, seaborn | Helping some of my friends working through their bachelor's thesis; I get involved in various things in all phases of the data science lifecycle in many projects |
+| [Skripsi Kawanku][skripsi-kawanku] | 2021 ~ | requests, bs4, Scrapy, Selenium, Tweepy, pandas, NLTK, scikit-learn, Matplotlib, seaborn | Helping some of my friends working through their bachelor's thesis; I get involved in various things in all phases of the data science lifecycle in many projects |
+| [MAL Scraper and EDA][mals-scraper-eda] | 2021 | requests, bs4, pandas, Matplotlib | Collects users' profile information and ratings from MyAnimelist, run deduplication, clean the data to find sources of errors, and do EDA on the dataset |
 
 ### Languages
 
@@ -43,7 +44,6 @@ Mostly data-related things
 
 [//]: # "| Codility | Coding Exercises | - | - | - |"
 [//]: # "| Hackernews Topic Model Pipeline | Data Engineering | - | - | - |"
-[//]: # "| MAL Scraper | Scraping | - | - | - |"
 
 ## 👯 Others
 
@@ -84,3 +84,4 @@ This portfolio is inspired by [Katie Huang's Portfolio](https://github.com/katie
 [coursera-dwh-bi]: https://www.coursera.org/specializations/data-warehousing
 [ff-sheets]: https://docs.google.com/spreadsheets/d/1CUSfaHK2nlhUibzl5yADVuSef7hYPdTqOz4yGJSIE54
 [stratascratch-data-projects-link]: https://platform.stratascratch.com/data-projects/insights-failed-orders
+[mals-scraper-eda]: https://github.com/vioxcd/mals-scraper-eda
