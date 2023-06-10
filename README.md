@@ -29,7 +29,7 @@ Mostly data-related things
 
 | Project | Completion Date | Tools | Description |
 | --- | --- | --- | --- |
-| [Stratascratch Business Analysis][stratascratch-business-analysis] | June 2023 | pyspark, pandas, Matplotlib, H3, folium | A case study of analyzing reasons of failures for a corporate transportation management company. Answering business questions given in the task and doing the bonus task of visualizing where most failures happen in a map |
+| [Stratascratch Business Analysis][stratascratch-business-analysis] | June 2023 | pyspark, pandas, Matplotlib, H3, folium | A [data projects][stratascratch-data-projects-link] (case study) of analyzing reasons of failures for a corporate transportation management company. Answering business questions given in the task and doing the bonus task of visualizing where most failures happen in a map |
 | [Tab Session Manager Deduplicator][tsmd] | October 2022 | pandas | Data cleaning and record deduplication of my [Tab Session Manager][tsm-repo] sessions, along with a little bit of fun exploration |
 | [Skripsi Kawanku][skripsi-kawanku] | 2021 ~ | requests, bs4, Scrapy, Selenium, Tweepy, pandas, NLTK, scikit-learn, matplotlib, seaborn | Helping some of my friends working through their bachelor's thesis; I get involved in various things in all phases of the data science lifecycle in many projects |
 
@@ -83,3 +83,4 @@ This portfolio is inspired by [Katie Huang's Portfolio](https://github.com/katie
 [caltech-de-page]: https://github.com/cal-data-eng/sp21
 [coursera-dwh-bi]: https://www.coursera.org/specializations/data-warehousing
 [ff-sheets]: https://docs.google.com/spreadsheets/d/1CUSfaHK2nlhUibzl5yADVuSef7hYPdTqOz4yGJSIE54
+[stratascratch-data-projects-link]: https://platform.stratascratch.com/data-projects/insights-failed-orders
