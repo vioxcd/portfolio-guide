@@ -12,7 +12,7 @@ Mostly data-related things
 
 | Project | Completion Date | Tools | Description |
 | --- | --- | --- | --- |
-| [Coursera Data Warehouse Capstone][coursera-dwh] | Ongoing | Postgres, dbt, Looker | Working through the final part of [Coursera's Data Warehouse for Business Intelligence Specializations][coursera-dwh-bi] assignments and case studies involving modeling (Kimball-style), integration, query problems, and dashboard building |
+| [Coursera Data Warehouse for Business Intelligence Capstone][coursera-dwh] | June 2023 | Postgres, dbt, Looker | Finished the final part of [Coursera's Data Warehouse for Business Intelligence Specializations][coursera-dwh-bi] assignments and case studies involving modeling (Kimball-style), integration, query problems, and dashboard building |
 | [Fluffy Folks Dashboard][ff-dashboard] | April 2023 | GraphQL API, sqlite, dbt, Streamlit, Airflow, Google Sheets | End-to-end pipeline of my online circle's anime and manga-related statistics. Initially built to address painful manual tracking and curation that a friend of mine did weekly. It includes a sheet and dashboard for user's access with 11 kinds of statistics. Sheets available online [here][ff-sheets] |
 | [Anime and Manga Recommendation API][animanga-recommenders] | March 2023 | FastAPI, Docker | Deploying the recommendation model and association rules I've created on an API. Using best practices I've learned through various resource about how to best use [Docker for a Python deployment][docker-python] |
 | [Caltech Data Engineering Exercises][caltech-de] | January 2023 | Postgres, MongoDB | Working through [Caltech Data Engineering][caltech-de-page] course exercises and case studies alongside the materials given |
