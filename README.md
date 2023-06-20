@@ -53,6 +53,7 @@ Non-data related things!
 - [Testing Notes (2021)](https://github.com/vioxcd/testing-notes)
 - [React and Firebase E-Voting App (2019)](https://github.com/vioxcd/pemira_e-voting)
 - [Plant Identification using AutoML (2019)](https://github.com/vioxcd/automl_plant_identification)
+- [Personal shell scripts repository (2019 ~)](https://github.com/vioxcd/portfolio-guide/assets/31486724/bb5bdf39-17d0-4e9c-a7b0-7cade0a075bd)
 
 ---
 
@@ -85,3 +86,4 @@ This portfolio is inspired by [Katie Huang's Portfolio](https://github.com/katie
 [ff-sheets]: https://docs.google.com/spreadsheets/d/1CUSfaHK2nlhUibzl5yADVuSef7hYPdTqOz4yGJSIE54
 [stratascratch-data-projects-link]: https://platform.stratascratch.com/data-projects/insights-failed-orders
 [mals-scraper-eda]: https://github.com/vioxcd/mals-scraper-eda
+
