@@ -63,7 +63,7 @@ This portfolio is inspired by [Katie Huang's Portfolio](https://github.com/katie
 
 [ff-dashboard]: https://github.com/vioxcd/ff-dashboard
 [animanga-recommenders]: https://github.com/vioxcd/animanga-recommenders
-[coursera-dwh]: https://github.com/vioxcd/coursera-dwh-etl-elt
+[coursera-dwh]: https://github.com/vioxcd/coursera-dwh-for-bi-capstone
 [hackernews-topic-modeling]: https://github.com/vioxcd/hackernews-topic-modeling
 [tsmd]: https://github.com/vioxcd/tsmd
 [scala-forth]: https://github.com/vioxcd/scala-forth-exercism
